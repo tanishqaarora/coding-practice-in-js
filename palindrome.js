@@ -2,14 +2,17 @@
 
 // check using loop
 
-let str = 'abcba';
+let str = 'Abcba';
+
 
 function checkPalindrome(string) {
+    // firstly convert string to lower case 
+    let newStr = string.toLowerCase();
     let start = 0;
-    let end = string.length-1;
+    let end = newStr.length-1;
 
     while(start<=end) {
-        if(string[start] !== string[end]) {
+        if(newStr[start] !== newStr[end]) {
             return 'It is not a Palindrome';
         }
         else {
@@ -24,9 +27,9 @@ function checkPalindrome(string) {
 console.log(checkPalindrome(str));
 
 // check using built-in functions
-
-let reverseStr = str.split('').reverse().join('');
-if( str === reverseStr ){
+let newStr = str.toLowerCase();
+let reverseStr = newStr.split('').reverse().join('');
+if( newStr === reverseStr ){
     console.log('It is a Palindrome');
 }
 else{
