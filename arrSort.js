@@ -1,3 +1,5 @@
+// Program to sort any array 
+
 // First method 
 let arr = [10, 5, 3, 4, 9, 2, 2, 4, -1];
 let temp;

@@ -1,4 +1,5 @@
-// Array 
+// Program to find the maximum number in an array 
+
 let arr = [2, -1, -5, 3, 5, 1, -2, 4];
 
 // Initially, set the maximum number to be the smallest possible number

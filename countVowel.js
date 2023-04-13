@@ -1,3 +1,5 @@
+// Program to find the number of vowels in a string
+
 let word = 'AaBbCc';
 let vowels = ['a', 'e', 'i', 'o', 'u'];
 

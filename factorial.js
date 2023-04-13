@@ -1,3 +1,5 @@
+// Program to find the factorial of any number
+
 let number = 5;
 let fact = 1;
 

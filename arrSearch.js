@@ -1,3 +1,4 @@
+// Program to search a specific element in an array
 
 let arr = [1, 2, 6, 9, 33, 67];
 let toSearch = 33;
