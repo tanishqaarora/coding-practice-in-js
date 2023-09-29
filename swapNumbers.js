@@ -1,5 +1,6 @@
 // Program to swap two numbers
-// without using third variable
+
+// 1) without using third variable
 // using + and -
 
 let a = 10;
@@ -28,4 +29,12 @@ y = x / y;         // 200/20 = 10
 x = x / y;         // 200/10 = 20
 
 console.log(`After Swapping: x = ${x} and y = ${y}`);
+
+// 2) using third variable
+
+let temp = a;
+a = b; 
+b = temp;
+
+console.log(`After Swapping: a = ${a} and b = ${b}`);
 
